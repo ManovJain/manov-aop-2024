@@ -7,7 +7,7 @@ export interface AdventSection {
 export const adventSections: AdventSection[] = [
   { id: 1, enabled: true, redirectPath: "/day1" },
   { id: 2, enabled: true, redirectPath: "/day2" },
-  { id: 3, enabled: false, redirectPath: "/day3" },
+  { id: 3, enabled: true, redirectPath: "/day3" },
   { id: 4, enabled: false, redirectPath: "/day4" },
   { id: 5, enabled: false, redirectPath: "/day5" },
   { id: 6, enabled: false, redirectPath: "/day6" },
